@@ -5,7 +5,9 @@
 }
 
 header {
-
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header h1 {
@@ -13,11 +15,16 @@ header h1 {
 }
 
 header nav ul {
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 header nav ul li a {
-
+  padding: 10px 20px;
+  font-size: 1.8vw;
 }
 
 section {
