@@ -2,14 +2,19 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: lightgoldenrodyellow;
 }
 
+body{
+  margin-bottom: 5vw;
+}
 header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 2%;
   align-items: baseline;
+  border-style: solid;
 }
 
 header h1 {
@@ -42,6 +47,7 @@ section div {
 
 p {
   font-size: 1.3vw;
+  padding: 0 0 0 .5vw;
 }
 
 h2 {
@@ -60,5 +66,35 @@ h2 {
 
 .leftHeader {
   flex: 1;
+  border-right: 0.2vw solid blueviolet;
+}
+
+.top-project {
+  width: 85%;
+  height: auto;
+  padding: 1vw 4vw 1vw 4vw;
+  margin: 1vw 3vw 1vw 3vw;
+}
+
+h3 {
+  font-size: 1.5vw;
+  text-align: center;
+  margin: 5vw 0 0 0;
+}
+
+.other-projects img {
+  width: 45%;
+  height: auto;
+  margin: 1vw 1.5vw 1.5vw 1.5vw;
+  padding: 0.5vw;
+  background-color: black;
+}
+
+.other-projects div {
+  display: inline;
+}
+
+.my-contact {
+  margin-bottom: 5vw;
 }
 
